@@ -8,11 +8,13 @@ You can view the website here: [KYC (authentifyy.vercel.app)](https://authentify
 
 # APP DEMO - VIDEO
 ## English language Demo
-https://drive.google.com/file/d/1UuCxQdiYmkhSfTe3pDPWI-dyQPFHk5fT/view?usp=drive_link
+https://github.com/HarshKothari88/authenticity/assets/50803863/987f8b3b-ba23-4d3e-89e2-d4c20b352cce
+
 
 
 ## Multi language Support demo
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/pZNrkT1cNH8/0.jpg)](https://www.youtube.com/watch?v=pZNrkT1cNH8)
+https://github.com/HarshKothari88/authenticity/assets/50803863/a2b65c89-54f2-43de-87d0-67b9080e79e9
+
 
 
 # Webite Screenshots
@@ -30,7 +32,7 @@ https://drive.google.com/file/d/1UuCxQdiYmkhSfTe3pDPWI-dyQPFHk5fT/view?usp=drive
 - **Comprehensive Data Collection**: Effortlessly provide your basic details, including name, date of birth (DOB), address, PAN card/Aadhaar number, signature, income range, and type of employment, through a conversational interface.
 - **Multilingual Support**: Break language barriers with our multilingual support, ensuring that everyone, regardless of their language proficiency, can complete the KYC process with ease.
 - **Accessibility Across Generations**: Designed to be intuitive for users of all ages, from digital natives to those less familiar with technology.
-- **Ease Of Use**: Authentify is designed with enhanced accessibility features, ensuring individuals with disabilities can navigate and complete the KYC process with ease, thanks to adaptive functionalities tailored to accommodate a wide range of physical and sensory needs.
+- **Ease Of Use**: Authenticity is designed with enhanced accessibility features, ensuring individuals with disabilities can navigate and complete the KYC process with ease, thanks to adaptive functionalities tailored to accommodate a wide range of physical and sensory needs.
 - **Privacy and Security**: Your privacy is our priority. We employ state-of-the-art security measures to protect your personal information throughout the KYC process.
 
 
