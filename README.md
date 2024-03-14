@@ -8,7 +8,7 @@ You can view the website here: [KYC (authentifyy.vercel.app)](https://authentify
 
 # APP DEMO - VIDEO
 ## English language Demo
-[![Alt text for your video](https://drive.google.com/file/d/1UuCxQdiYmkhSfTe3pDPWI-dyQPFHk5fT/view)
+https://drive.google.com/file/d/1UuCxQdiYmkhSfTe3pDPWI-dyQPFHk5fT/view?usp=drive_link
 
 
 ## Multi language Support demo
