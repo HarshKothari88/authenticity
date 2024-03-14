@@ -1,11 +1,14 @@
+import 'package:authenticity/auth/login_view.dart';
+import 'package:authenticity/auth/register_view.dart';
 import 'package:authenticity/themes.dart';
-import 'package:authenticity/utility/app_bar.dart';
+import 'package:authenticity/utility/app_bar_widget.dart';
 import 'package:authenticity/utility/primary_button.dart';
 import 'package:authenticity/utility/secondary_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
+import 'package:lottie/lottie.dart';
 
 class AuthView extends StatelessWidget {
   const AuthView({super.key});
@@ -20,10 +23,8 @@ class AuthView extends StatelessWidget {
         child: Column(
           children: [
             const Gap(50),
-            SvgPicture.asset(
-              'assets/images/obj.svg',
-              height: 300,
-            ),
+            Lottie.asset('assets/images/welcome.json',
+                height: 300, repeat: true),
             Text(
               "Let's get started!",
               style: Get.theme.kTitleTextStyle,
@@ -32,12 +33,11 @@ class AuthView extends StatelessWidget {
             primaryButton(
                 label: 'Login to your account',
                 icon: Icons.login_rounded,
-                
-                onTap: () => {}),
+                onTap: () => {Get.to(() => LoginView())}),
             secondaryButton(
                 label: 'Sign up',
                 icon: Icons.create,
-                onTap: () => {}),
+                onTap: () => {Get.to(() => RegisterView())}),
           ],
         ),
       )),

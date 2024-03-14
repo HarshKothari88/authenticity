@@ -36,8 +36,7 @@ dependencies:
   file_picker: ^6.2.0
   flutter:
     sdk: flutter
-  step_progress_indicator: ^1.0.2
-  flutter_native_splash: ^2.3.13
+  flutter_chat_ui: ^1.6.12
   flutter_svg: ^2.0.10+1
   gap: ^3.0.1
   geocoding: ^2.2.2
@@ -48,6 +47,8 @@ dependencies:
   http: ^1.2.1
   introduction_screen: ^3.1.12
   lottie: ^3.1.0
+  socket_io_client: ^2.0.3+1
+  step_progress_indicator: ^1.0.2
 
 dev_dependencies:
   flutter_lints: ^3.0.0

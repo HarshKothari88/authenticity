@@ -12,13 +12,13 @@ Widget secondaryButton(
     child: TextButton.icon(
       onPressed: onTap,
       style: TextButton.styleFrom(
-        foregroundColor: Get.theme.colorSecondary,
+        foregroundColor: Colors.white,
         padding: const EdgeInsets.all(15),
         fixedSize: Size.fromWidth(Get.size.width),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10),
         ),
-        backgroundColor: Get.theme.curveBG,
+        backgroundColor: Get.theme.colorSecondary,
       ),
       icon: Icon(
         icon,

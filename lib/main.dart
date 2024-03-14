@@ -1,3 +1,4 @@
+import 'package:authenticity/chat/chat_view.dart';
 import 'package:authenticity/on_boarding/on_boardind_view.dart';
 import 'package:authenticity/theme_service.dart';
 import 'package:authenticity/themes.dart';
@@ -27,7 +28,17 @@ class MyApp extends StatelessWidget {
       theme: Themes.light,
       darkTheme: Themes.dark,
       themeMode: ThemeMode.light,
-      home: const OnBoardingScreen(),
+      home: loadScreen(),
     );
+  }
+}
+
+Widget loadScreen() {
+  // GetStorage().remove("token");
+  final token = GetStorage().read("token");
+  if (token == null) {
+    return const OnBoardingScreen();
+  } else {
+    return const ChatView();
   }
 }

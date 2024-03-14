@@ -43,7 +43,7 @@ extension ThemeExtension on ThemeData {
       : const Color(0xf0ffffff);
   Color get curveBG => brightness == Brightness.dark
       ? const Color(0x8D4A4A48)
-      : const Color(0xB4F1F1F1);
+      : Color.fromARGB(180, 237, 237, 237);
   Color get barrierColor => brightness == Brightness.dark
       ? const Color(0xA4353534)
       : const Color(0xA4353534);
@@ -86,9 +86,9 @@ class Themes {
     // backgroundColor: Colors.white,
     appBarTheme: const AppBarTheme(
         systemOverlayStyle: SystemUiOverlayStyle(
-            statusBarColor: Color.fromARGB(255, 25, 25, 25),
-            statusBarIconBrightness: Brightness.dark)),
-    scaffoldBackgroundColor: Color.fromARGB(241, 255, 255, 255),
+            statusBarColor: Color(0xf2161616),
+            statusBarIconBrightness: Brightness.light)),
+    scaffoldBackgroundColor: Color.fromARGB(255, 255, 255, 255),
     // textTheme: TextTheme(headline1: GoogleFonts.quicksand(fontSize: 18,fontWeight: FontWeight.w800,color: Theme.of(context).btnTextCol),headline2: GoogleFonts.quicksand(fontSize: 16,fontWeight: FontWeight.w600),headline3: GoogleFonts.quicksand(fontSize: 14,fontWeight: FontWeight.w600))
   );
   static final dark = ThemeData.dark().copyWith(

@@ -1,13 +1,14 @@
 import 'package:authenticity/auth/auth_controller.dart';
 import 'package:authenticity/auth/text_field.dart';
 import 'package:authenticity/themes.dart';
-import 'package:authenticity/utility/app_bar.dart';
+import 'package:authenticity/utility/app_bar_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
+import 'package:lottie/lottie.dart';
 
-class LoginPageScreen extends StatelessWidget {
-  const LoginPageScreen({super.key});
+class LoginView extends StatelessWidget {
+  const LoginView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -26,6 +27,8 @@ class LoginPageScreen extends StatelessWidget {
                     'Login',
                     style: Get.theme.kMedTitleTextStyle,
                   ),
+                  Lottie.asset('assets/images/login.json',
+                      height: 300, repeat: false),
                   Padding(
                     padding: const EdgeInsets.only(
                         top: 8, bottom: 20, left: 20, right: 20),
@@ -35,7 +38,7 @@ class LoginPageScreen extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20)),
                       color: Get.theme.curveBG,
                       child: Padding(
-                        padding: const EdgeInsets.all(12.0),
+                        padding: const EdgeInsets.all(8.0),
                         child: Form(
                             key: controller.loginKey,
                             child: Column(
@@ -67,15 +70,14 @@ class LoginPageScreen extends StatelessWidget {
                                     Padding(
                                       padding: const EdgeInsets.all(15.0),
                                       child: Text(
-                                        'Login\nto the app',
+                                        'Login to the app',
                                         style: Get.theme.kMedTitleTextStyle,
                                       ),
                                     ),
                                     Container(
                                       width: 80,
                                       decoration: BoxDecoration(
-                                          borderRadius:
-                                              BorderRadius.circular(20),
+                                          borderRadius: BorderRadius.circular(20),
                                           color: Get.theme.colorAccent),
                                       child: IconButton(
                                           onPressed: () => {controller.login()},
