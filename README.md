@@ -18,8 +18,8 @@ You can view the website here: [KYC (authentifyy.vercel.app)](https://authentify
 
 # Webite Screenshots
 ![Website UI](./Screenshots/Authentify1.png)
-![Register](./Screenshots/Register.png)
-![Login](./Screenshots/Login.png)
+![Register](./Screenshots/register.png)
+![Login](./Screenshots/login.png)
 
 
 ## Features
