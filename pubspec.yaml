@@ -45,8 +45,11 @@ dependencies:
   get_storage: ^2.1.1
   google_fonts: ^6.2.1
   http: ^1.2.1
+  image_picker: ^1.0.7
   introduction_screen: ^3.1.12
   lottie: ^3.1.0
+  open_filex: ^4.4.0
+  permission_handler: ^11.3.0
   socket_io_client: ^2.0.3+1
   step_progress_indicator: ^1.0.2
 

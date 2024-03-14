@@ -1,4 +1,5 @@
 import 'package:authenticity/chat/chat_view.dart';
+import 'package:authenticity/complete/completed_view.dart';
 import 'package:authenticity/on_boarding/on_boardind_view.dart';
 import 'package:authenticity/theme_service.dart';
 import 'package:authenticity/themes.dart';
