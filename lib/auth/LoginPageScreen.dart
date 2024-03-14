@@ -1,11 +1,10 @@
-
 import 'package:authenticity/auth/auth_controller.dart';
+import 'package:authenticity/auth/text_field.dart';
 import 'package:authenticity/themes.dart';
 import 'package:authenticity/utility/app_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
-
 
 class LoginPageScreen extends StatelessWidget {
   const LoginPageScreen({super.key});
