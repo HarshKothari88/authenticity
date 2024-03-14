@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+@keyframes moveUpDown {
+  0% {
+      transform: translateY(-5px);
+  }
+  100% {
+      transform: translateY(5px);
+  }
+}
+
+.animateupdown{
+  animation: moveUpDown 2s infinite alternate;
+}
+
+
+@layer base {
+    .btn-primary{
+        @apply bg-primary text-white text-sm px-3 py-2 rounded-md hover:scale-110;
+    }
+
+    .btn-secondary{
+        @apply border text-primary text-sm px-3 py-2 rounded-md hover:scale-110;
+    }
+}
