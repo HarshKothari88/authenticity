@@ -8,12 +8,12 @@ You can view the website here: [KYC (authentifyy.vercel.app)](https://authentify
 
 # APP DEMO - VIDEO
 ## English language Demo
-https://github.com/HarshKothari88/authenticity/assets/50803863/987f8b3b-ba23-4d3e-89e2-d4c20b352cce
+<!-- https://github.com/HarshKothari88/authenticity/assets/50803863/987f8b3b-ba23-4d3e-89e2-d4c20b352cce -->
 
 
 
 ## Multi language Support demo
-https://github.com/HarshKothari88/authenticity/assets/50803863/a2b65c89-54f2-43de-87d0-67b9080e79e9
+<!-- https://github.com/HarshKothari88/authenticity/assets/50803863/a2b65c89-54f2-43de-87d0-67b9080e79e9 -->
 
 
 
